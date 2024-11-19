@@ -1,3 +1,4 @@
+import 'package:beta/main.dart';
 import 'package:flutter/material.dart';
 import '../constant/bottom.dart';
 import '../constant/colors.dart';
@@ -53,21 +54,135 @@ class _State extends State<Setting> {
                 height: _screenheight * 1.5,
                 width: _screenwidth * 0.85,
                 child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
-                    Row(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        SizedBox(width: 5,),
+                        Text(
+                          '문제 추천 설정',
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          height: 1,
+                        width: _screenwidth * 0.8,
+                        color: Colors.black,)
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        SizedBox(width: 5,),
+                        Text(
+                          '난이도 설정',
+                        ),
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                        Padding(padding: EdgeInsets.only(left: 20),
+                        ),
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          height: 1,
+                          width: _screenwidth * 0.8,
+                          color: Colors.black,)
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Icon(
+                            Icons.logout
+                        ),
+                        SizedBox(width: 5,),
+                        Text(
+                          '로그 아웃',
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
